@@ -1,0 +1,15 @@
+===== LINUX AUTHENTICATION LOG ANALYSIS REPORT =====
+Report generated: 2026-11-22 14:17:47.636802
+
+Total failed attempts: 3
+Total successful attempts: 2
+
+FAILED LOGIN USERNAMES:
+suman: 2
+invaliduser: 1
+
+FAILED LOGIN IP ADDRESSES:
+192.168.1.50: 3
+
+SUSPICIOUS IP ADDRESSES:
+WARNING: 192.168.1.50 has 3 failed attempts
