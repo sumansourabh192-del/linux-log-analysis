@@ -5,3 +5,6 @@ venv/
 *.log
 !data/sample_auth.log
 
+
+# Local backup files
+*.backup

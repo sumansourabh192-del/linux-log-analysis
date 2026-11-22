@@ -41,7 +41,7 @@ linux-log-analysis/
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/sumansourabh192-del/linux-log-analysis.git
 cd linux-log-analysis
 ```
 
@@ -84,3 +84,17 @@ The program generates:
 ## Disclaimer
 
 This project uses synthetic sample authentication logs for educational and testing purposes. An IP flagged by this tool is not proof of a real attack.
+
+## Automated Testing
+
+Run tests with Python unittest:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+The test suite checks:
+- Failed login counting
+- Successful login counting
+- Failed username counting
+- Suspicious IP detection
